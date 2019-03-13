@@ -8,4 +8,6 @@ public interface BookRepositoryCustom {
 
     Book findByName(String name);
 
+    String findBookProperty(String propertyName, Long id);
+
 }
